@@ -52,7 +52,7 @@ With opam, you can install the current development version of your
 project as a single opam package. It will override the currently
 installed package of the same name, if any:
 ```
-$ opam pin add proj .
+$ opam pin add dm19 .
 ```
 For more information on `opam pin`, please consult the opam documentation.
 
