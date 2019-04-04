@@ -1,0 +1,20 @@
+opam-version: "1.2"
+maintainer: "ajj@hig.se"
+authors: ["Anders Johansson"]
+homepage: "https://github.com/USERNAME/proj"
+bug-reports: "https://github.com/USERNAME/proj/issues"
+dev-repo: "https://github.com/USERNAME/proj.git"
+
+build: [
+  ["dune" "subst"] {pinned}
+  ["dune" "build" "-p" name "-j" jobs]
+]
+
+build-test: ["dune" "runtest" "-p" name]
+
+depends: [
+  "dune" {build}
+  "tyxml" {build}
+  "jupyter" {build}
+  "alcotest" {test}
+]
