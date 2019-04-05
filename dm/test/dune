@@ -1,7 +1,7 @@
 (library
- (name test_sub1)
+ (name test_dm)
  (libraries
   alcotest
-  proj.sub1
+  dm19
  )
- (synopsis "Tests for sub1"))
+ (synopsis "Tests for library dm"))
