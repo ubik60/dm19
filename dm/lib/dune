@@ -3,5 +3,6 @@
 (library
  (name dm19)
  (public_name dm19)
+ (modules jup htm truth)
  (libraries unix tyxml)
  (synopsis "Detta är en bibliotek med hjälpfiler till jupyter notebook för delkursen Diskret matematik"))
